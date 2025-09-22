@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example: Student Timetable</title>
+  </head>
+  <body>
+    <h1>Example: Student Timetable</h1>
+    <table display="table" border="1" style="width: 100%">
+      <thead>
+        <caption style="font-weight: bold">
+          Student Timetable - Semester 1
+        </caption>
+        <tr style="background-color: lightgray">
+          <th style="padding: 5px">Period</th>
+          <th style="padding: 5px">Monday</th>
+          <th style="padding: 5px">Tuesday</th>
+          <th style="padding: 5px">Wednesday</th>
+          <th style="padding: 5px">Thursday</th>
+          <th style="padding: 5px">Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 5px; font-weight: bold; text-align: center">
+            Period 1
+          </td>
+          <td style="padding: 5px">Math</td>
+          <td style="padding: 5px" rowspan="2">Programming</td>
+          <td style="padding: 5px">English</td>
+          <td style="padding: 5px">Web Design</td>
+          <td style="padding: 5px">Math</td>
+        </tr>
+        <tr>
+          <td style="padding: 5px; font-weight: bold; text-align: center">
+            Period 2
+          </td>
+          <td style="padding: 5px">History</td>
+          <td style="padding: 5px">Science</td>
+          <td style="padding: 5px">English</td>
+          <td style="padding: 5px">PE</td>
+        </tr>
+        <tr style="background-color: rgba(211, 211, 211, 0.393)">
+          <th colspan="6" style="text-align: center">Lunch Break</th>
+        </tr>
+        <tr>
+          <td style="padding: 5px; font-weight: bold; text-align: center">
+            Period 3
+          </td>
+          <td colspan="2" style="text-align: center">Project Work</td>
+          <td style="padding: 5px">Math</td>
+          <td style="padding: 5px">Programming</td>
+          <td style="padding: 5px">Free</td>
+        </tr>
+        <tr>
+          <td style="padding: 5px; font-weight: bold; text-align: center">
+            Period 4
+          </td>
+          <td style="padding: 5px">English</td>
+          <td style="padding: 5px">History</td>
+          <td style="padding: 5px" rowspan="2">Science Lab</td>
+          <td style="padding: 5px">Web Design</td>
+          <td style="padding: 5px">Math</td>
+        </tr>
+        <tr>
+          <td style="padding: 5px; font-weight: bold; text-align: center">
+            Period 5
+          </td>
+          <td style="padding: 5px">PE</td>
+          <td style="padding: 5px">Math</td>
+          <td style="padding: 5px">English</td>
+          <td style="padding: 5px">Programming</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr style="background-color: rgba(211, 211, 211, 0.66)">
+          <td colspan="6" style="text-align: center">
+            Note: This timetable is subject to change.
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
